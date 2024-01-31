@@ -2,14 +2,15 @@
 import './App.css'
 //library imports
 import { Routes } from 'react-router-dom'
+import Footer from './Components/Footer'
 
 function App() {
 
   return (
       <>
-      <Routes>
+      {/* <Routes>
       lms
-      </Routes>
+      </Routes> */}
       
       </>
   )
