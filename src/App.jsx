@@ -9,6 +9,7 @@ import AboutUs from './Pages/Aboutus';
 import NotFound from './Pages/NotFound';
 import SignUp from './Pages/SignUp';
 import Login from './Pages/Login';
+import CourseList from './Pages/Course/courseList';
 // import Daisyui from './Components/Daisyui';
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} ></Route>
         <Route path="/about" element={<AboutUs />} ></Route>
+        <Route path="/courses" element={<CourseList />} ></Route>
+
         <Route path="/signup" element={<SignUp />} ></Route>
         <Route path="/login" element={<Login />} ></Route>
 
