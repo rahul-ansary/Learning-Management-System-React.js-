@@ -10,6 +10,7 @@ import NotFound from './Pages/NotFound';
 import SignUp from './Pages/SignUp';
 import Login from './Pages/Login';
 import CourseList from './Pages/Course/courseList';
+import Contact from './Pages/Contact';
 // import Daisyui from './Components/Daisyui';
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
 
         <Route path="/signup" element={<SignUp />} ></Route>
         <Route path="/login" element={<Login />} ></Route>
-
+        <Route path="/contact" element={<Contact />} ></Route>
 
 
         <Route path="*" element={<NotFound />} ></Route>
